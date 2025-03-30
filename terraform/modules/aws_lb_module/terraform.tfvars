@@ -1,0 +1,5 @@
+alb_sg_name = "alb_sg"
+my_load_balancer_type = "application"
+my_alb_name = "devops-alb"
+targets = "instance"
+my_target_group_name = "devops-tg"

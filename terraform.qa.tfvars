@@ -1,0 +1,42 @@
+my_region = "eu-west-1"
+vpc_cidr = "11.0.0.0/24"
+vpc_name = "QualityAssurance_vpc"
+subnet1_cidr = "11.0.0.0/26"
+subnet2_cidr = "11.0.0.64/26"
+subnet3_cidr = "11.0.0.128/26"
+subnet4_cidr = "11.0.0.192/26"
+my_az_region1 = "eu-west-1a"
+my_az_region2 = "eu-west-1b"
+my_igw = "QualityAssurance_igw"
+natgw_name = "QualityAssurance_natgw" 
+public_subnet1_name = "QualityAssurance_publicSubnet1"
+public_subnet2_name = "QualityAssurance_publicSubnet2"
+public_route_table_name = "QualityAssurance_publicRouteTable"
+private_subnet1_name = "QualityAssurance_privateSubnet1"
+private_subnet2_name = "QualityAssurance_privateSubnet2"
+private_route_table_name = "QualityAssurance_privateRouteTable"
+
+alb_sg_name = "QualityAssurance_alb_sg"
+my_load_balancer_type = "application"
+my_alb_name = "QualityAssurance-alb"
+targets = "instance"
+my_target_group_name = "QualityAssurance-tg"
+
+
+my_sg_name = "QualityAssurance_sg"
+my_asg_name = "QualityAssurance_asg"
+base_ami_id = "ami-08f9a9c699d2ab3f9"
+instance_type_for_custom_ami = "t2.small"
+instance_type_for_lt = "t2.small"   
+my_key = "rakeshrr"
+desired = "1"
+maximum = "1"
+minimum = "1"
+
+
+bucket_name      = "qas3bucket97"
+my_iam_role      = "IamRole_EC2"
+my_ami           = "ami-0a007a006645e86ab"
+my_instnace_type = "t2.small"
+
+
